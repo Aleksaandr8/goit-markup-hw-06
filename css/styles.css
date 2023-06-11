@@ -757,7 +757,7 @@ img {
 
 .contact-form-input:focus {
   outline: none;
-  border-color: #4d5ae5;
+  border-color: var(--logo-color);
 }
 
 .contact-form-input-icon {
@@ -771,7 +771,7 @@ img {
 }
 
 .contact-form-input:focus + .contact-form-input-icon {
-  fill: #4d5ae5;
+  fill: var(--logo-color);
 }
 
 .contact-comment {
@@ -800,7 +800,7 @@ img {
 
 .contact-form-message:focus {
   outline: none;
-  border-color: #4d5ae5;
+  border-color: var(--logo-color);
 }
 
 .contact-form-input-checkbox {
